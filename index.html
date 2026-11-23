@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria Letícia Carvalho · Desenvolvedora Full Stack</title>
+  <meta name="description" content="Desenvolvedora Full Stack Júnior — C#, .NET, SQL Server, Angular, Ionic e React. Sites, sistemas e aplicativos sob medida." />
+  <link rel="icon" href="assets/foto.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-view="inicio">
+
+  <!-- ===== Barra superior (aparece fora da tela inicial) ===== -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a href="#inicio" class="brand">
+        <img src="assets/foto.png" alt="" class="brand__avatar" />
+        <span data-config="nome">Seu Nome</span>
+      </a>
+      <nav class="tabs" aria-label="Seções">
+        <a href="#sobre" data-tab="sobre">Sobre mim</a>
+        <a href="#carreira" data-tab="carreira">Carreira</a>
+        <a href="#servicos" data-tab="servicos">Serviços</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== INÍCIO / ESCOLHA ===================== -->
+    <section class="view view--inicio" id="view-inicio" aria-label="Início">
+      <div class="wrap hero">
+        <div class="hero__photo">
+          <img src="assets/foto.png" alt="Foto de perfil" />
+          <span class="status"><i></i> Disponível para projetos</span>
+        </div>
+        <div class="hero__text">
+          <p class="eyebrow">Desenvolvedora Full Stack Júnior</p>
+          <h1>Olá, eu sou <span data-config="nome">Seu Nome</span>.<br /><em>Crio sistemas, sites e apps</em> que resolvem problemas reais.</h1>
+          <p class="lead">Curiosa, criativa e apaixonada por inovação. Por onde você quer começar?</p>
+        </div>
+      </div>
+
+      <div class="wrap choices">
+        <a href="#sobre" class="choice">
+          <span class="choice__num">01</span>
+          <h2>Sobre mim</h2>
+          <p>Minha trajetória, quem eu sou e onde quero chegar.</p>
+          <span class="choice__cta">Conhecer <b>→</b></span>
+        </a>
+        <a href="#carreira" class="choice">
+          <span class="choice__num">02</span>
+          <h2>Carreira</h2>
+          <p>Experiência em tecnologia, stack e projetos de que participo.</p>
+          <span class="choice__cta">Ver experiência <b>→</b></span>
+        </a>
+        <a href="#servicos" class="choice choice--accent">
+          <span class="choice__num">03</span>
+          <h2>Serviços</h2>
+          <p>Sites, sistemas e aplicativos para o seu negócio.</p>
+          <span class="choice__cta">Ver projetos <b>→</b></span>
+        </a>
+      </div>
+
+      <div class="wrap socials">
+        <a data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-link="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MIM ===================== -->
+    <section class="view" id="view-sobre" aria-label="Sobre mim">
+      <div class="wrap">
+        <div class="head">
+          <p class="eyebrow">01 · Sobre mim</p>
+          <h1>Curiosa por natureza, <em>empreendedora desde cedo.</em></h1>
+          <p class="lead">Sou uma pessoa curiosa, criativa e apaixonada por inovação e tecnologia. Gosto de aprender coisas novas, desenvolver projetos, treinar e explorar novas ideias.</p>
+          <div class="actions">
+            <a class="btn btn--primary" data-link="curriculo" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+              Baixar currículo
+            </a>
+            <a class="btn btn--ghost" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <h3 class="section-title">Minha trajetória</h3>
+            <ol class="timeline">
+              <li><span class="timeline__age">13 anos</span><div><strong>Primeira marca</strong><p>Criei minha própria marca de papelaria personalizada.</p></div></li>
+              <li><span class="timeline__age">15 anos</span><div><strong>Freelances</strong><p>Comecei a trabalhar de forma independente com freelances.</p></div></li>
+              <li><span class="timeline__age">18 anos</span><div><strong>Primeiro emprego CLT</strong><p>Experiência em atendimento e vendas em uma loja de suplementos.</p></div></li>
+              <li><span class="timeline__age">18 anos</span><div><strong>Estágio em TI</strong><p>Com apenas seis meses de faculdade, conquistei minha primeira oportunidade na área de tecnologia.</p></div></li>
+              <li class="is-now"><span class="timeline__age">Hoje</span><div><strong>Desenvolvedora Full Stack Júnior</strong><p>Efetivada na empresa, construindo sistemas de logística e armazenagem.</p></div></li>
+            </ol>
+          </div>
+
+          <div class="stack-col">
+            <div class="card">
+              <h3 class="section-title">Qualidades</h3>
+              <ul class="tags">
+                <li>Curiosidade</li><li>Criatividade</li><li>Autonomia</li><li>Responsabilidade</li>
+                <li>Comunicação</li><li>Aprendizado rápido</li><li>Visão de negócio</li><li>Espanhol</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="section-title">Objetivos</h3>
+              <ul class="checks">
+                <li>Evoluir como Desenvolvedora Full Stack, assumindo projetos cada vez mais desafiadores.</li>
+                <li>Aprofundar conhecimentos em arquitetura, boas práticas e novas tecnologias.</li>
+                <li>Criar produtos próprios que gerem valor real para pessoas e empresas.</li>
+                <li>Unir tecnologia e empreendedorismo, que me acompanham desde cedo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <a href="#carreira" class="next">Próximo: Carreira <b>→</b></a>
+      </div>
+    </section>
+
+    <!-- ===================== CARREIRA ===================== -->
+    <section class="view" id="view-carreira" aria-label="Carreira">
+      <div class="wrap">
+        <div class="head">
+          <p class="eyebrow">02 · Carreira</p>
+          <h1>Do banco de dados <em>ao dashboard.</em></h1>
+          <p class="lead">Atualmente, atuo como Desenvolvedora Full Stack Júnior, trabalhando no desenvolvimento e manutenção de sistemas voltados à logística e armazenagem — tanto no back-end quanto no front-end, desde a modelagem de bancos de dados até a construção de interfaces e dashboards.</p>
+          <div class="actions">
+            <a class="btn btn--primary" data-link="linkedin" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h3v11H4zM5.5 4a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4zM10 9h3v1.6c.5-.9 1.7-1.8 3.4-1.8 3.2 0 3.6 2.1 3.6 4.8V20h-3v-5.6c0-1.4 0-3-1.9-3s-2.1 1.4-2.1 2.9V20h-3z" fill="currentColor" stroke="none"/></svg>
+              Ver LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="role card">
+          <div>
+            <p class="role__label">Cargo atual</p>
+            <h3>Desenvolvedora Full Stack Júnior</h3>
+            <p class="muted">ACTI Tecnologia · Sistemas de logística e armazenagem · Mar 2026 – atual</p>
+          </div>
+          <span class="pill">Atual</span>
+        </div>
+
+        <div class="grid-2 grid-2--even">
+          <div class="card">
+            <h3 class="section-title">Experiência</h3>
+            <ol class="timeline timeline--compact">
+              <li class="is-now"><span class="timeline__age">2026</span><div><strong>Programadora Full Stack Júnior</strong><p class="muted">ACTI Tecnologia · mar 2026 – atual</p><p>Aplicações web com .NET (C#, VB.NET, ASP.NET Core), React, Next.js e banco de dados; integração e consumo de APIs; melhorias e manutenção evolutiva em sistemas internos.</p></div></li>
+              <li><span class="timeline__age">2025</span><div><strong>Estagiária em Desenvolvimento de Software</strong><p class="muted">ACTI Tecnologia · set 2025 – mar 2026</p><p>Apoio no desenvolvimento, integrações e correções, com boas práticas de código e versionamento. Efetivada após o estágio.</p></div></li>
+            </ol>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Formação</h3>
+            <ol class="timeline timeline--compact">
+              <li class="is-now"><span class="timeline__age">Atual</span><div><strong>Análise e Desenvolvimento de Sistemas</strong><p class="muted">Unicesumar · cursando</p></div></li>
+              <li><span class="timeline__age">Técnico</span><div><strong>Desenvolvimento de Sistemas</strong><p class="muted">ETEC Machado de Assis · concluído</p></div></li>
+            </ol>
+          </div>
+        </div>
+
+        <h3 class="section-title">Tecnologias</h3>
+        <div class="tech">
+          <div class="tech__group"><span>Back-end</span><ul class="tags"><li>C#</li><li>.NET</li><li>ASP.NET Core</li><li>VB.NET</li><li>APIs</li></ul></div>
+          <div class="tech__group"><span>Banco de dados</span><ul class="tags"><li>SQL Server</li><li>MySQL</li><li>Modelagem de dados</li></ul></div>
+          <div class="tech__group"><span>Front-end</span><ul class="tags"><li>React</li><li>Next.js</li><li>Angular</li><li>Ionic</li></ul></div>
+          <div class="tech__group"><span>Entregas</span><ul class="tags"><li>Interfaces</li><li>Dashboards</li><li>Apps mobile</li></ul></div>
+        </div>
+
+        <h3 class="section-title">Projeto em destaque</h3>
+        <article class="feature">
+          <div class="feature__badge">
+            <span class="flag" aria-hidden="true">🇵🇦</span>
+            <strong>Panamá</strong>
+            <small>Única desenvolvedora</small>
+          </div>
+          <div class="feature__body">
+            <h4>Sistema de controle de insumos</h4>
+            <p>Um dos desafios mais marcantes da minha trajetória foi assumir, como única desenvolvedora, um projeto de controle de insumos para uma empresa no Panamá. A experiência me proporcionou autonomia, responsabilidade e evolução técnica.</p>
+            <p>Além do aprendizado em logística, conheci mais sobre a cultura do país, participei de reuniões com gestores e desenvolvi minha comunicação em espanhol. Os feedbacks positivos ao longo do projeto reforçaram minha confiança para assumir novos desafios.</p>
+            <ul class="tags tags--sm"><li>Autonomia</li><li>Reuniões com gestores</li><li>Comunicação em espanhol</li><li>Logística</li></ul>
+          </div>
+        </article>
+
+        <div class="grid-2 grid-2--even">
+          <div class="card">
+            <h3 class="section-title">O que faço no dia a dia</h3>
+            <ul class="checks">
+              <li>Desenvolvimento e manutenção de sistemas corporativos.</li>
+              <li>Modelagem e manipulação de dados relacionais (SQL Server e MySQL).</li>
+              <li>Regras de negócio, integração e consumo de APIs em C# / .NET.</li>
+              <li>Interfaces web e mobile com React, Next.js, Angular e Ionic.</li>
+              <li>Dashboards para acompanhamento de operações.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Objetivos na tecnologia</h3>
+            <ul class="checks">
+              <li>Crescer para níveis Pleno e Sênior com base técnica sólida.</li>
+              <li>Atuar em projetos com impacto real e times multidisciplinares.</li>
+              <li>Aprofundar arquitetura de software e boas práticas.</li>
+              <li>Trabalhar em projetos internacionais.</li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="#servicos" class="next">Próximo: Serviços <b>→</b></a>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="view" id="view-servicos" aria-label="Serviços">
+      <div class="wrap">
+        <div class="head">
+          <p class="eyebrow">03 · Serviços</p>
+          <h1>Tecnologia sob medida <em>para o seu negócio.</em></h1>
+          <p class="lead">Além da minha atuação profissional, trabalho de forma independente, atendendo outros empreendedores no desenvolvimento de sites e pequenos sistemas para empresas. No tempo livre, crio aplicativos e projetos próprios — sempre estudando e explorando novas tecnologias.</p>
+          <div class="actions">
+            <a class="btn btn--wpp" data-link="whatsapp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1 0-.3-.1-.5-.2z"/></svg>
+              Solicitar orçamento
+            </a>
+          </div>
+        </div>
+
+        <h3 class="section-title">O que eu ofereço</h3>
+        <div class="offers">
+          <div class="offer"><span class="offer__icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></span><h4>Sites para empresas</h4><p>Institucionais e landing pages modernas, responsivas e rápidas.</p></div>
+          <div class="offer"><span class="offer__icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><h4>Sistemas sob medida</h4><p>Controle de vendas, estoque, cadastros e processos internos.</p></div>
+          <div class="offer"><span class="offer__icon"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h4>Aplicativos web e mobile</h4><p>Apps que funcionam no celular e no computador.</p></div>
+          <div class="offer"><span class="offer__icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h4>Dashboards</h4><p>Indicadores claros para decidir com base em dados.</p></div>
+        </div>
+
+        <h3 class="section-title">Projetos</h3>
+        <div class="projects">
+          <article class="project">
+            <a class="project__shot" href="https://finaxapp-chi.vercel.app/" target="_blank" rel="noopener">
+              <img src="assets/finax.png" alt="Tela inicial do app Finax" loading="lazy" />
+            </a>
+            <div class="project__body">
+              <div class="project__top"><h4>Finax</h4><span class="pill pill--soft">App próprio</span></div>
+              <p>Agente pessoal de finanças que funciona como uma conversa: você manda o valor e ele anota o resto. No fim do mês, mostra para onde o dinheiro foi.</p>
+              <ul class="tags tags--sm"><li>Finanças pessoais</li><li>Web app</li><li>UX conversacional</li></ul>
+              <a class="link" href="https://finaxapp-chi.vercel.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__shot" href="https://saas-vendas-eight.vercel.app/" target="_blank" rel="noopener">
+              <img src="assets/vendas.png" alt="Página do SaaS Controle de Vendas" loading="lazy" />
+            </a>
+            <div class="project__body">
+              <div class="project__top"><h4>Controle de Vendas</h4><span class="pill pill--soft">SaaS</span></div>
+              <p>Sistema para quem vende no Instagram, no WhatsApp e na feira: registra vendas em segundos e mostra o lucro real, descontando custo do produto e taxa da maquininha.</p>
+              <ul class="tags tags--sm"><li>Dashboard de lucro</li><li>Estoque</li><li>Crediário</li><li>Mobile first</li></ul>
+              <a class="link" href="https://saas-vendas-eight.vercel.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </article>
+
+          <article class="project project--empty">
+            <div class="project__body">
+              <div class="project__top"><h4>Sites para empresas</h4><span class="pill pill--soft">Clientes</span></div>
+              <p>Sites institucionais e páginas de apresentação desenvolvidos para empreendedores e pequenas empresas, com foco em presença digital profissional e contato direto com clientes.</p>
+              <ul class="tags tags--sm"><li>Institucional</li><li>Landing page</li><li>Responsivo</li></ul>
+              <a class="link" data-link="whatsapp" target="_blank" rel="noopener">Quero um site assim ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="grid-2 grid-2--even">
+          <div class="card">
+            <h3 class="section-title">Pontos fortes</h3>
+            <ul class="checks">
+              <li><b>Full stack de verdade:</b> do banco de dados à interface, sem intermediários.</li>
+              <li><b>Visão de negócio:</b> empreendo desde os 13 anos e entendo a rotina de quem vende.</li>
+              <li><b>Experiência corporativa:</b> sistemas reais de logística em produção.</li>
+              <li><b>Comunicação clara:</b> atendimento próximo, em português ou espanhol.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Como funciona</h3>
+            <ol class="steps">
+              <li><b>Conversa</b><span>Entendo sua necessidade pelo WhatsApp.</span></li>
+              <li><b>Proposta</b><span>Escopo, prazo e valor claros.</span></li>
+              <li><b>Desenvolvimento</b><span>Entregas com acompanhamento e ajustes.</span></li>
+              <li><b>Publicação</b><span>Seu projeto no ar e com suporte.</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="cta">
+          <div>
+            <h3>Tem um projeto em mente?</h3>
+            <p>Me chame no WhatsApp e vamos conversar sobre a sua ideia.</p>
+          </div>
+          <a class="btn btn--wpp" data-link="whatsapp" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="ano"></span> <span data-config="nome">Seu Nome</span> · Desenvolvedora Full Stack</span>
+      <nav>
+        <a data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-link="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="fab" data-link="whatsapp" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1 0-.3-.1-.5-.2z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
